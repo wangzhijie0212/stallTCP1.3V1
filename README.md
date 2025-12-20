@@ -242,7 +242,7 @@ CREATE TABLE IF NOT EXISTS stats (
 
 ## 💾 兼容模式：绑定 KV (可选)
 
-**如果您不想配置 D1，系统支持自动降级使用 KV 存储配置和黑名单。**
+**如果您不想配置 D1，系统支持自动降级使用 KV 存储配置和白名单。**
 
 1.  在 Cloudflare 左侧菜单选择 **Workers & Pages** -> **KV**。
 2.  点击 **创建命名空间 (Create a Namespace)**，命名为 `BLACKLIST`（或任意名称）。
